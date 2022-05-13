@@ -54,7 +54,6 @@ export default function UsersPage() {
     fetch(`http://localhost:8080/user/${user.id}`, requestOptions)
     .then(res => res.json())
     .then(res => {
-      // console.log(res)
       setEditUser({...res})
     })
     

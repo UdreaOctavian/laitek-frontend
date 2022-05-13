@@ -102,56 +102,6 @@ export default function AccountSettingsPage() {
         } else postRequest()
       } else postRequest()
     }
-      
-    //   if (usernameRef.current.value !== "") {
-    //     console.log('baiu 1')
-    //     if (!validateUsername(usernameRef.current.value)) {
-    //       console.log("invalid username")
-    //       setError("Invalid username! Check username format by clicking the info icon near username")
-    //       setTimeout(() => {
-    //         setError("") 
-    //       }, 3000)
-    //       setIsEditState(prevState => !prevState)
-    //       setControlFormEnabled(prevState => !prevState)
-    //       formRef.current.reset()
-    //     } else {
-    //       //verificare pentru password + name
-    //       postRequest()
-    //     }
-    //   } else if (passwordRef.current.value !== "") {
-    //     console.log('baiu 2')
-    //     if (!validatePassword(passwordRef.current.value)) {
-    //       console.log("invalid password")
-          
-    //       setError("Invalid password! Check password format by clicking the info icon near password")
-    //       setTimeout(() => {
-    //         setError("") 
-    //       }, 3000)
-    //       setIsEditState(prevState => !prevState)
-    //       setControlFormEnabled(prevState => !prevState)
-    //       formRef.current.reset()
-    //     } else {
-    //       //verificare name
-    //       postRequest()
-    //     }
-    //   }
-    //     else if (nameRef.current.value !== "") {
-    //       console.log('baiu 3')
-    //       if(!validateName(nameRef.current.value)) {
-    //         console.log("invalid name")
-    //         setError("Invalid name!")
-    //         setTimeout(() => {
-    //           setError("") 
-    //         }, 3000)
-    //         setIsEditState(prevState => !prevState)
-    //         setControlFormEnabled(prevState => !prevState)
-    //         formRef.current.reset()
-    //       } else {
-    //         postRequest()
-    //       }
-    //   } else {
-    //     postRequest()
-    //   }
   }
 
   return (
