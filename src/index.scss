@@ -1,0 +1,216 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Canela', 'PT Sans', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.signup-page-wrapper {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 350px;
+    display: flex;
+    place-items: center;
+}
+
+.card-b {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-h {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.submit-btn {
+    width: 100%;
+}
+
+.login-link {
+    margin-top: 16px;
+}
+
+.router-link {
+    text-decoration: none;
+}
+
+.nav-router-link {
+    color: #9B9D9E;
+
+    &:hover {
+        color: #f2f2f2;
+    }
+
+    &:active {
+        color: #fff;
+    }
+}
+
+.me-auto {
+    width: 100%;
+    display: flex;
+}
+
+.logout-btn {
+    margin-left: auto;
+    border: 1px solid #fff;
+    color: #fff;
+
+    &:hover {
+        background-color: #fff;
+        color: rgb(33,37,41);
+    }
+}
+
+.account-settings-page {
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.users-page-wrapper, .patients-page {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.patients-page input {
+    text-align: center;
+}
+
+.d-inline {
+    margin: 12px 0;
+}
+
+.delete-user-btn {
+    cursor: pointer;
+
+    &:hover {
+        color: #ff8c00;
+    }
+}
+
+thead, tbody, tr, th, td {
+    text-align: center;
+}
+
+.add-user-btn {
+    display: flex;
+    align-items: center;
+}
+
+.add-user-icon {
+    margin-left: 10px;
+}
+
+.btn {
+    outline: none;
+    border: none;
+
+    &:focus, &:active, &:visited {
+        outline: none;
+        border: none;
+    }
+}
+
+.add-user-modal-body {
+    display: flex;
+    justify-content: center;
+}
+
+.add-user-card {
+    box-shadow: none;
+}
+
+.td-username {
+    cursor: pointer;
+
+    &:hover {
+        font-weight: bold;
+    }
+}
+
+.hero {
+    width: 100%;
+    padding: 50px;
+    justify-content: space-evenly;
+}
+
+.hero-text-wrapper {
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-text {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 2.8vw;
+    line-height: 3vw;
+    margin-bottom: 24px;
+}
+
+.hero-subtext {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1vw;
+    line-height: 1.2vw;
+}
+
+.hero-img-wrapper {
+    width: 40vw;
+}
+
+.hero-img {
+    width: 40vw;
+    border-radius: 5%;
+}
+
+.alert {
+    text-align: center;
+    padding: 5px;
+}
+
+.form-group-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.custom-tooltip {
+    margin-left: 6px;
+}
